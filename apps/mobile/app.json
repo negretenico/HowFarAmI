@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "HowFarAmI",
+    "slug": "howfarami",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "howfarami",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
