@@ -1,0 +1,28 @@
+{
+  "name": "howfarami",
+  "private": true,
+  "description": "Applicaiton To see how far in social distance a perosn is to somoene else",
+  "homepage": "https://github.com/negretenico/HowFarAmI#readme",
+  "bugs": {
+    "url": "https://github.com/negretenico/HowFarAmI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negretenico/HowFarAmI.git"
+  },
+  "license": "ISC",
+  "author": "negretenico",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0"
+  },
+  "packageManager": "bun@1.1.0"
+}
